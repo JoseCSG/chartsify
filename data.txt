@@ -1,6 +1,0 @@
-curl "https://api.spotify.com/v1/artists/4Z8W4fKeB5YxbusRsdQVPb" -H "Authorization: Bearer  BQCvWyF4T2Y5bC0tdl23w7bHUnTUFdzyUNIvggS1ThtWlzdmJBP8Nk5LKV534e8ljxZCu9G1Ctnk7cBsbeePohG2k8In-y-zhXOeFXQYILffDbgLHZo"
-	const [accessToken, setAccesToken] = useState(null);
-	const [profile, setProfile] = useState({});
-	const CLIENT_ID = "96e8702fbab44251be1289e8bff1763a";
-	const REDIRECT_URI = "http://localhost:3000";
-	const code = new URLSearchParams(window.location.search).get("code");

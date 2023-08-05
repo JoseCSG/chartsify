@@ -25,3 +25,8 @@ yarn-error.log*
 # Editor directories and files
 /public
 /src/Constants.js
+
+#firebase
+/firebase.json
+/.firebaserc
+/.firebase
